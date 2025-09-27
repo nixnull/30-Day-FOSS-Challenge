@@ -1,0 +1,64 @@
+body {
+  border: 0;
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  line-height: 1.5;
+  background-color: #FDF6E3;
+  color: #6E7355;
+  font-size: 18px;
+}
+
+a {
+  color: #DD43C5;
+}
+
+.nvbr {
+  width: 100%;
+  background-color: #6E7355;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.nvbr a {
+  padding: 15px;
+  padding-left: 1ch;
+  padding-right: 1ch;
+  display: inline-block;
+#  min-width: 10ch;
+  color: #FDF6E3;
+}
+
+/* Change the color of links on hover */
+.nvbr a:hover {
+  background-color: #DD43C5;
+}
+
+/* Add a color to the active/current link */
+.nvbr a.active {
+  background-color: #DD43C5;
+}
+
+h2 {
+  color: #DD43C5;
+  text-align: center;
+}
+
+h3 {
+  color: #DD43C5;
+}
+
+h1 {
+  color: #DD43C5;
+  text-align: center;
+}
+
+.contentbox, .mainpg {
+    max-width: 78ch;
+    margin: auto;
+}
+
+img {
+  margin: auto;
+  display: block;
+}
